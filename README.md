@@ -19,3 +19,20 @@ Para a realização deste desafio, você deve atender aos seguintes requisitos t
 - **Validação das operações:** Não permita depósitos e saques com valores negativos, valide se o usuário possui saldo para realizar o saque.
 - **Segurança:** Implemente autenticação usando JWT para proteger os endpoints que necessitam de acesso autenticado.
 - **Documentação com OpenAPI:**  Certifique-se de que sua API esteja bem documentada, incluindo descrições adequadas para cada endpoint, parâmetros e modelos de dados.
+
+## Inicialização
+
+```
+# versão do python 3.11
+
+uv sync
+
+. .venv/bin/activate
+
+
+# alembic será executado automaticamente
+# aplicação inicializará através do uvicorn
+# variáveis de ambiente padrões configuradas
+
+python main.py
+```
